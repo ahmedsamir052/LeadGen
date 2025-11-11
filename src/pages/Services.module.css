@@ -1,0 +1,221 @@
+.cont {
+  background-color: #1f1f1f;
+  padding: 7rem 0;
+}
+.head {
+  text-align: center;
+}
+.head h1 {
+  font-size: 35px;
+  color: #c5a47e;
+  margin-bottom: 2rem;
+}
+.head p {
+  width: 43%;
+  margin: auto;
+  font-size: 16px;
+  color: #707070;
+  margin-bottom: 4rem;
+}
+.cards {
+  width: 75%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.card {
+  width: 23%;
+  background-color: black;
+}
+.img {
+  width: 100%;
+}
+.img img {
+  width: 100%;
+}
+.text {
+  padding: 1.7rem 0;
+  text-align: center;
+}
+.text h4 {
+  color: white;
+}
+.text p {
+  font-size: 12px;
+  font-weight: 500;
+  color: #707070;
+}
+.qst {
+  background-color: #0e0e0e;
+  padding: 4rem 0;
+}
+.quot {
+  width: 64%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.quot h2 {
+  font-size: 28px;
+  color: #ffffff;
+}
+.quot .btn button {
+  font-size: 15px;
+  font-weight: 600;
+  padding: 1rem 2.5rem;
+  color: white;
+  background-color: #bf9f7a;
+  border: none;
+  border-radius: 50px;
+}
+@media screen and (max-width: 576px) {
+  .cont {
+    padding: 1rem 0;
+  }
+  .head h1 {
+    font-size: 25px;
+    margin-bottom: 1.5rem;
+  }
+  .head p {
+    width: 91%;
+    font-size: 15px;
+    margin-bottom: 4rem;
+  }
+  .cards {
+    width: 90%;
+  }
+  .card {
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+  .qst {
+    padding: 2rem 0;
+  }
+  .quot {
+    width: 95%;
+    display: block;
+    text-align: center;
+  }
+  .quot h2 {
+    font-size: 22px;
+    margin-bottom: 1rem;
+  }
+  .quot .btn button {
+    font-size: 12px;
+    padding: 0.7rem 1.5rem;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .cont {
+    padding: 2rem 0;
+  }
+  .head h1 {
+    font-size: 27px;
+    margin-bottom: 2.5rem;
+  }
+  .head p {
+    width: 91%;
+    font-size: 15px;
+    margin-bottom: 5rem;
+  }
+  .cards {
+    width: 95%;
+  }
+  .card {
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+  .text {
+    padding: 3rem 0;
+  }
+  .qst {
+    padding: 2rem 0;
+  }
+  .quot {
+    width: 90%;
+    display: block;
+    text-align: center;
+  }
+  .quot h2 {
+    font-size: 24px;
+    margin-bottom: 0.8rem;
+  }
+  .quot .btn button {
+    font-size: 13px;
+    padding: 0.7rem 1.5rem;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .cont {
+    padding: 2.5rem 0;
+  }
+  .head h1 {
+    font-size: 30px;
+    margin-bottom: 1.5rem;
+  }
+  .head p {
+    width: 91%;
+    font-size: 15px;
+    margin-bottom: 3rem;
+  }
+  .cards {
+    width: 93%;
+  }
+  .card {
+    width: 48.5%;
+    margin-bottom: 1.5rem;
+  }
+  .qst {
+    padding: 2rem 0;
+  }
+  .quot {
+    width: 80%;
+    display: block;
+    text-align: center;
+  }
+  .quot h2 {
+    font-size: 26px;
+    margin-bottom: 1rem;
+  }
+  .quot .btn button {
+    font-size: 14px;
+    padding: 0.8rem 2rem;
+  }
+}
+@media screen and (min-width: 1025px) and (max-width: 1240px) {
+  .cont {
+    padding: 6rem 0;
+  }
+  .head h1 {
+    font-size: 33px;
+  }
+  .head p {
+    width: 63%;
+    font-size: 15px;
+  }
+  .cards {
+    width: 90%;
+  }
+  .card {
+    width: 23%;
+  }
+  .text {
+    padding: 1.4rem 0;
+  }
+  .qst {
+    padding: 4rem 0;
+  }
+  .quot {
+    width: 75%;
+    gap: 1.5rem;
+  }
+  .quot h2 {
+    font-size: 27px;
+  }
+  .quot .btn button {
+    font-size: 14px;
+    padding: 1rem 2rem;
+  }
+}

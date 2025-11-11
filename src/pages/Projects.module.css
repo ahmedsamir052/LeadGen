@@ -1,0 +1,416 @@
+.cont {
+  background-color: #272727;
+  padding: 7rem 0;
+}
+
+.head {
+  text-align: center;
+}
+.head h1 {
+  font-size: 35px;
+  color: #c5a47e;
+  margin-bottom: 2rem;
+}
+
+.head p {
+  width: 43%;
+  margin: auto;
+  font-size: 16px;
+  color: #707070;
+  margin-bottom: 4rem;
+}
+
+.imgs {
+  width: 98%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.imgBox {
+  width: 32.4%;
+  position: relative;
+  overflow: hidden;
+}
+
+.imgBox img {
+  width: 100%;
+  transition: transform 0.4s ease;
+}
+
+.imgBox::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.85);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.imgBox:hover img {
+  transform: scale(1.1);
+}
+
+.imgBox:hover::after {
+  opacity: 1;
+}
+
+.stats {
+  width: 68%;
+  margin: auto;
+  padding-top: 7rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  text-align: center;
+}
+
+.counter {
+  font-size: 45px;
+  color: #c5a47e;
+}
+
+.card p {
+  font-size: 18px;
+  color: #707070;
+}
+
+.line {
+  width: 40px;
+  height: 3px;
+  background: #c5a47e;
+  margin: auto;
+  margin-top: 1.5rem;
+  border-radius: 2px;
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+  height: 77vh;
+  background-image: url("/src/assets/imgs/fitness-about-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text {
+  background-color: #1f1f1f;
+  padding: 5.8rem;
+  position: absolute;
+  width: 29%;
+  height: 45vh;
+  top: 50%;
+  left: 32.65%;
+  transform: translate(-50%, -50%);
+}
+
+.text h1 {
+  font-size: 45px;
+  font-weight: normal;
+  color: #c5a47e;
+  margin-bottom: 1.2rem;
+  line-height: 1.2;
+}
+
+.text p {
+  font-size: 25px;
+  color: #707070;
+  margin-bottom: 1.7rem;
+}
+
+.text span {
+  font-size: 15px;
+  color: #707070;
+}
+
+.text button {
+  font-size: 13px;
+  color: white;
+  display: flex;
+  background-color: #c5a47e;
+  padding: 0.6rem 1.25rem;
+  border: none;
+  border-radius: 5px;
+  margin-top: 1.5rem;
+}
+
+@media screen and (max-width: 576px) {
+  .cont {
+    padding: 3.5rem 0;
+    background-color: #1f1f1f;
+
+  }
+  .head h1 {
+    font-size: 25px;
+    margin-bottom: 1.5rem;
+  }
+  .head p {
+    width: 91%;
+    font-size: 15px;
+    margin-bottom: 4rem;
+  }
+  .imgs {
+    width: 91%;
+    gap: 0rem;
+  }
+  .imgBox {
+    width: 100%;
+  }
+  .stats {
+    width: 91%;
+    padding-top: 2rem;
+  }
+  .card {
+    width: 100%;
+  }
+  .counter {
+    font-size: 35px;
+  }
+  .card p {
+    font-size: 14px;
+  }
+  .line {
+    margin-top: 0.8rem;
+    margin-bottom: 1rem;
+  }
+  .hero {
+    width: 100%;
+    height: 70.5vh;
+    background-image: none;
+    background-color: #1f1f1f;
+  }
+  .text {
+    padding: 1rem;
+    width: 90%;
+    height: auto;
+    top: 0;
+    left: 0;
+    transform: translate(0, 0);
+  }
+  .text h1 {
+    font-size: 27px;
+    margin-bottom: 1rem;
+  }
+  .text p {
+    font-size: 17px;
+    margin-bottom: 1.2rem;
+  }
+  .text span {
+    font-size: 13px;
+  }
+  .text button {
+    font-size: 11px;
+    padding: 0.5rem 1rem;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .cont {
+    padding: 2rem 0;
+  }
+  .head h1 {
+    font-size: 27px;
+    margin-bottom: 2.5rem;
+  }
+  .head p {
+    width: 91%;
+    font-size: 15px;
+    margin-bottom: 5rem;
+  }
+  .imgs {
+    width: 95%;
+    gap: 0rem;
+  }
+  .imgBox {
+    width: 100%;
+  }
+  .stats {
+    width: 95%;
+    padding-top: 4rem;
+  }
+  .card {
+    width: 100%;
+  }
+  .counter {
+    font-size: 37px;
+  }
+  .card p {
+    font-size: 15px;
+  }
+  .line {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+  .hero {
+    width: 100%;
+    height: 62vh;
+    background-image: none;
+    background-color: #1f1f1f;
+  }
+  .text {
+    padding: 3rem;
+    width: 80%;
+    height: auto;
+    top: 0;
+    left: 0;
+    transform: translate(0, 0);
+  }
+  .text h1 {
+    font-size: 30px;
+    margin-bottom: 0.5rem;
+  }
+  .text p {
+    font-size: 20px;
+    margin-bottom: 1rem;
+  }
+  .text span {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .cont {
+    padding: 2.5rem 0;
+  }
+  .head h1 {
+    font-size: 30px;
+    margin-bottom: 1.5rem;
+  }
+  .head p {
+    width: 91%;
+    font-size: 15px;
+    margin-bottom: 3rem;
+  }
+  .imgs {
+    width: 95%;
+    gap: 0rem;
+  }
+  .imgBox {
+    width: 49.5%;
+  }
+  .stats {
+    width: 95%;
+    padding-top: 1rem;
+  }
+  .card {
+    width: 50%;
+  }
+  .counter {
+    font-size: 39px;
+  }
+  .card p {
+    font-size: 15px;
+  }
+  .line {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+  .hero {
+    width: 100%;
+    height: 59vh;
+  }
+  .text {
+    padding: 2rem;
+    width: 60%;
+    height: 49.2vh;
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%);
+  }
+  .text h1 {
+    font-size: 25px;
+    margin-bottom: 1.2rem;
+  }
+  .text p {
+    font-size: 20px;
+    margin-bottom: 1.5rem;
+  }
+  .text span {
+    font-size: 13px;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1240px) {
+  .cont {
+    padding: 6rem 0;
+  }
+  .head h1 {
+    font-size: 33px;
+  }
+  .head p {
+    width: 63%;
+    font-size: 15px;
+  }
+  .imgs {
+    width: 95%;
+    gap: 0rem;
+  }
+  .stats {
+    width: 95%;
+    padding-top: 3rem;
+  }
+  .counter {
+    font-size: 39px;
+  }
+  .card p {
+    font-size: 15px;
+  }
+  .line {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+  .hero {
+    width: 100%;
+    height: 77vh;
+  }
+  .text {
+    padding: 3rem;
+    width: 42.3%;
+    height: 62.2vh;
+    top: 50%;
+    left: 26.8%;
+    transform: translate(-50%, -50%);
+  }
+  .text h1 {
+    font-size: 40px;
+    margin-bottom: 1rem;
+  }
+  .text p {
+    font-size: 20px;
+    margin-bottom: 1rem;
+  }
+  .text span {
+    font-size: 15px;
+  }
+  .text button {
+    font-size: 13px;
+    padding: 0.6rem 1.25rem;
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (min-width: 1241px) and (max-width: 1440px) {
+  .text {
+    padding: 2rem;
+    height: 66.2vh;
+  }
+  .text h1 {
+    font-size: 40px;
+    margin-bottom: 1rem;
+    line-height: 1.3;
+    
+  }
+  .text p {
+    font-size: 20px;
+    margin-bottom: 1rem;
+  }
+  .text span {
+    font-size: 15px;
+  }
+}
