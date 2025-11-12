@@ -1,1 +1,0 @@
-P: Parity for 3 blocks (SumLen=110)
