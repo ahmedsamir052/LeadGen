@@ -8,6 +8,7 @@ import Blog from "../pages/Blog";
 import Contact from "../pages/Contact";
 import styles from "./Navbar.module.css";
 
+import imglogo from "../assets/imgs/logo-white.png"
 export default function Navbar() {
   const [showMenu, setShowMenu] = useState(false);
 
@@ -20,7 +21,7 @@ export default function Navbar() {
         <div className={styles.nav}>
           <div className={styles.logo}>
             <div className={styles.img}>
-              <img src="/src/assets/imgs/logo-white.png" alt="logo" />
+              <img src={imglogo} alt="logo" />
             </div>
           </div>
 

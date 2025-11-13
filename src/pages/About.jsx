@@ -1,5 +1,6 @@
 import styles from "./About.module.css";
-
+import imgcont from "../assets/imgs/content-51.png"
+import imghero from "../assets/imgs/hero-bg22.jpg"
 export default function About() {
   return (
     <>
@@ -26,7 +27,7 @@ export default function About() {
             </button>
           </div>
           <div className={styles.img}>
-            <img src="/src/assets/imgs/content-51.png" alt="" />
+            <img src={imgcont} alt="" />
           </div>
         </div>
       </div>
@@ -70,7 +71,6 @@ export default function About() {
             </div>
             <div className={styles.card}>
               <div className={styles.title}>
-                {/* <i className="fa-solid fa-pen-nib"></i> */}
                 <i className={`${styles.icon} fa-solid fa-pen-nib`}></i>
                 <h4>Design without limits</h4>
               </div>
@@ -82,7 +82,7 @@ export default function About() {
           </div>
         </div>
         <div className={styles.iabout}>
-          <img src="/src/assets/imgs/hero-bg22.jpg" alt="" />
+          <img src={imghero} alt="" />
         </div>
       </div>
     </>

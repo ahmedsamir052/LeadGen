@@ -1,5 +1,8 @@
 import styles from "./Services.module.css";
-
+import img8 from "../assets/imgs/team-08.jpg"
+import img1 from "../assets/imgs/team-01.jpg"
+import img2 from "../assets/imgs/team-02.jpg"
+import img3 from "../assets/imgs/team-03.jpg"
 export default function Services() {
   return (
     <>
@@ -15,7 +18,7 @@ export default function Services() {
         <div className={styles.cards}>
           <div className={styles.card}>
             <div className={styles.img}>
-              <img src="/src/assets/imgs/team-08.jpg" alt="" />
+              <img src={img8} alt="" />
             </div>
             <div className={styles.text}>
               <h4>COMMERCIAL DESIGN</h4>
@@ -24,7 +27,7 @@ export default function Services() {
           </div>
           <div className={styles.card}>
             <div className={styles.img}>
-              <img src="/src/assets/imgs/team-01.jpg" alt="" />
+               <img src={img1} alt="" />
             </div>
             <div className={styles.text}>
               <h4>OFFICE DESIGN</h4>
@@ -33,7 +36,7 @@ export default function Services() {
           </div>
           <div className={styles.card}>
             <div className={styles.img}>
-              <img src="/src/assets/imgs/team-02.jpg" alt="" />
+               <img src={img2} alt="" />
             </div>
             <div className={styles.text}>
               <h4>RESIDENTIAL DESIGN</h4>
@@ -42,7 +45,7 @@ export default function Services() {
           </div>
           <div className={styles.card}>
             <div className={styles.img}>
-              <img src="/src/assets/imgs/team-03.jpg" alt="" />
+               <img src={img3} alt="" />
             </div>
             <div className={styles.text}>
               <h4>HOSPITALLY DESIGN</h4>

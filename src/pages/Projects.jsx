@@ -1,6 +1,12 @@
 import { useEffect } from "react";
 import styles from "./Projects.module.css";
 
+import img1 from "../assets/imgs/agency-work-01.jpg"
+import img2 from "../assets/imgs/agency-work-02.jpg"
+import img3 from "../assets/imgs/agency-work-03.jpg"
+import img4 from "../assets/imgs/agency-work-04.jpg"
+import img5 from "../assets/imgs/agency-work-05.jpg"
+import img6 from "../assets/imgs/agency-work-06.jpg"
 export default function Projects() {
   useEffect(() => {
     const counters = document.querySelectorAll(`.${styles.counter}`);
@@ -54,11 +60,29 @@ export default function Projects() {
         </div>
 
         <div className={styles.imgs}>
-          {[1, 2, 3, 4, 5, 6].map((n) => (
+          {/* {[1, 2, 3, 4, 5, 6].map((n) => (
             <div key={n} className={styles.imgBox}>
               <img src={`/src/assets/imgs/agency-work-0${n}.jpg`} alt="" />
             </div>
-          ))}
+          ))} */}
+          <div className={styles.imgBox}>
+            <img src={img1} alt="" />
+          </div>
+          <div className={styles.imgBox}>
+            <img src={img2} alt="" />
+          </div>
+          <div className={styles.imgBox}>
+            <img src={img3} alt="" />
+          </div>
+          <div className={styles.imgBox}>
+            <img src={img4} alt="" />
+          </div>
+          <div className={styles.imgBox}>
+            <img src={img5} alt="" />
+          </div>
+          <div className={styles.imgBox}>
+            <img src={img6} alt="" />
+          </div>
         </div>
 
         <div className={styles.stats}>
