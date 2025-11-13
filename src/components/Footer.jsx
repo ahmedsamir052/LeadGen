@@ -1,11 +1,11 @@
-import styles from "./Footer.module.css"; // ✅ استخدمنا CSS Module
-
+import styles from "./Footer.module.css"; 
+import imglogo from "../assets/imgs/logo-white.png"
 export default function Footer() {
   return (
     <div className={styles.cont}>
       <div className={styles.footer}>
         <div className={styles.logo}>
-          <img src="/src/assets/imgs/logo-white.png" alt="logo" />
+          <img src={imglogo} alt="" />
         </div>
 
         <div className={styles.powered}>
